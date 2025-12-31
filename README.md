@@ -14,26 +14,54 @@ It operates as a standalone on-device application, functioning independently lik
 
 ## Features
 * **Disable call recording notification sound:** Turns off the audible warning when recording calls.
+* **Change Apple Wallet background image:** Customize the Wallet pass/card background appearance.
+* **Edit MobileGestalt file (advanced):** Modify MobileGestalt configuration values (for advanced users).
+* **On-device patching (no PC required):** Works as a standalone app after initial setup.
 * **More features coming soon:** Development is ongoing to add new capabilities.
 
-## Getting Your .mobiledevicepairing File
-To generate the necessary pairing file, follow these steps:
 
-1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)
-    * **Note:** On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:
+## Getting Your .mobiledevicepairing File
+There are two supported ways to obtain a pairing file:
+
+### Option 1 — Generate it with jitterbugpair (recommended)
+1.  Download `jitterbugpair` for your operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)
+    * **Note:** On Mac or Linux, you may need to make it executable first:
         ```bash
         chmod +x ./jitterbugpair
         ```
-2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.
-3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).
-4.  Open the **EnsWilde** app and select the pairing file.
+2.  Run the program (double-click it or run it via Terminal/PowerShell).
+3.  Share the generated `.mobiledevicepairing` file to your iOS device (AirDrop, Files, etc.).
+4.  Open **EnsWilde** and select the pairing file.
 
-*You should only have to do this once, unless you lose the file or delete the app's data.*
+*You should only have to do this once, unless you lose the file or delete the app’s data.*
+
+---
+
+### Option 2 — Pick the pairing file directly from SideStore’s folder
+If you already imported/placed a pairing file for SideStore, it’s typically stored in SideStore’s on-device folder.
+
+1. Open **Files** on your iPhone/iPad
+2. Go to **Browse** → **On My iPhone/iPad** → **SideStore**
+3. Find the file ending in **`.mobiledevicepairing`**
+4. Open **EnsWilde** and select that file directly from the SideStore folder
 
 ## Setting Up VPN
 1.  Download **LocaldevVPN** or **Stikdebug** from the iOS App Store.
 2.  Enable the VPN within that app.
 3.  Launch **EnsWilde**.
+
+## Troubleshooting
+
+### DDI (Developer Disk Image) error
+If you encounter a **DDI / mounting DDI**-related error, you may need to install **StikDebug** and run it **once** so it can download/mount the DDI:
+
+1. Install **StikDebug**: https://github.com/StephenDev0/StikDebug  
+2. Launch **StikDebug** and let it complete the DDI step (this is usually a one-time setup)
+
+After the DDI has been created/mounted, you **won’t need StikDebug anymore**—you can simply use **LocaldevVPN** and launch **EnsWilde**.
+
+> If the DDI error returns after a reboot or iOS update, just open StikDebug once again to mount it.
+
 
 ## Credits
 
@@ -46,4 +74,4 @@ Special thanks to the following for their contributions and support:
 * **@JJTech0130**: [`SparseRestore` and backup exploit.](https://github.com/JJTech0130).
 * **@hanakim3945**: [`bl_sbx` exploit files and writeup.](https://github.com/hanakim3945).
 * **@Lakr233**: [BBackupp](https://github.com/Lakr233/BBackupp).
-* **@libimobiledevice**:[For the underlying communication libraries.](https://github.com/libimobiledevice/libimobiledevice).
+* **@libimobiledevice**: [For the underlying communication libraries.](https://github.com/libimobiledevice/libimobiledevice).
