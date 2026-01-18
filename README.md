@@ -13,11 +13,12 @@ It operates as a standalone on-device application, functioning independently lik
 > **Please back up your data before using!**
 
 ## Features
-* **Disable call recording notification sound:** Turns off the audible warning when recording calls.
-* **Change Apple Wallet background image:** Customize the Wallet pass/card background appearance.
+* **Disable call recording notification sound:** Turns off the audible alert when call recording starts.
+* **Change Apple Wallet background image:** Customize the background appearance of Wallet passes/cards.
 * **Edit MobileGestalt file (advanced):** Modify MobileGestalt configuration values (for advanced users).
-* **On-device patching (no PC required):** Works as a standalone app after initial setup.
-* **More features coming soon:** Development is ongoing to add new capabilities.
+* **Change Passcode background:** Customize the numeric keypad appearance using the `.passthm` interface.
+* **On-device patching (no PC required):** Operates as a standalone app after the initial setup.
+* **More features coming soon:** Development is ongoing to introduce additional capabilities.
 
 
 ## Getting Your .mobiledevicepairing File
@@ -46,21 +47,9 @@ If you already imported/placed a pairing file for SideStore, it’s typically st
 4. Open **EnsWilde** and select that file directly from the SideStore folder
 
 ## Setting Up VPN
-1.  Download **LocaldevVPN** or **Stikdebug** from the iOS App Store.
+1.  Download **LocaldevVPN** from the iOS App Store.
 2.  Enable the VPN within that app.
 3.  Launch **EnsWilde**.
-
-## Troubleshooting
-
-### DDI (Developer Disk Image) error
-If you encounter a **DDI / mounting DDI**-related error, you may need to install **StikDebug** and run it **once** so it can download/mount the DDI:
-
-1. Install **StikDebug**: https://github.com/StephenDev0/StikDebug  
-2. Launch **StikDebug** and let it complete the DDI step (this is usually a one-time setup)
-
-After the DDI has been created/mounted, you **won’t need StikDebug anymore**—you can simply use **LocaldevVPN** and launch **EnsWilde**.
-
-> If the DDI error returns after a reboot or iOS update, just open StikDebug once again to mount it.
 
 
 ## Credits
