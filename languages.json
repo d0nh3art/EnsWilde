@@ -8,11 +8,11 @@
       "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/en.json"
     },
     {
-      "code": "zh_CN",
-      "name": "Chinese",
-      "nativeName": "Chinese",
-      "version": 1,
-      "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/zh_CN.json"
-    }
+        "code": "zh_CN",
+        "name": "Chinese (Simplified)",
+        "nativeName": "简体中文",
+        "version": 1,
+        "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/zh_CN.json"
+      }
   ]
 }
