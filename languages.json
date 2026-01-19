@@ -15,6 +15,22 @@
       "version": 1,
       "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/zh_CN.json",
       "translator": "Vzero Reviewer"
+    },
+    {
+      "code": "ru_RU",
+      "name": "Russian",
+      "nativeName": "Русский",
+      "version": 1,
+      "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/ru_RU.json",
+      "translator": "🌸Владек"
+    },
+    {
+      "code": "fr_FR",
+      "name": "French",
+      "nativeName": "Français",
+      "version": 1,
+      "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/fr_FR.json",
+      "translator": "louploup.exe"
     }
   ]
 }
