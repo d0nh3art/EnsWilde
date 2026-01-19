@@ -289,5 +289,17 @@
     "settings_thanks_libimobile": "致谢所有「底层通信库」的相关贡献者。",
     "settings_zpatch_passcode_prompt": "输入密码以解锁 zPatch 自定义功能",
     "alert_delete_card_confirm": "你确定要删除 {cardName} 吗？",
-    "unknown_error": "扫描卡片时出现未知错误。"
+    "unknown_error": "扫描卡片时出现未知错误。",
+    "settings_language_current": "当前语言",
+    "settings_language_refresh": "刷新语言列表",
+    "settings_language_available": "可用语言",
+    "settings_language_no_available": "暂无可用语言",
+    "settings_language_refresh_prompt": "点击「刷新语言列表」加载可用语言",
+    "settings_language_use": "使用",
+    "settings_language_download": "下载",
+    "error_language_fetch_failed": "获取语言列表失败：响应无效",
+    "error_language_download_invalid_url": "{language} 的下载链接无效",
+    "error_language_download_failed": "下载 {language} 失败：响应无效",
+    "error_language_download_error": "下载 {language} 失败：{error}",
+    "error_cannot_delete_current_language": "无法删除当前正在使用的语言"
 }
