@@ -232,6 +232,13 @@
   "settings_guide": "Guide",
   "settings_contact": "Contact me",
   "settings_language": "Language",
+  "settings_language_current": "Current Language",
+  "settings_language_refresh": "Refresh Language List",
+  "settings_language_available": "Available Languages",
+  "settings_language_no_available": "No languages available",
+  "settings_language_refresh_prompt": "Tap 'Refresh Language List' to load available languages",
+  "settings_language_use": "Use",
+  "settings_language_download": "Download",
   "settings_coming_soon": "Coming Soon",
   "settings_zpatch_enable": "Enable zPatch Custom",
   "settings_zpatch_unlocked": "Unlocked",
@@ -289,6 +296,11 @@
   "msg_tool_instruction": "This screen only edits files in Documents. Use Home → Apply Enabled Tools to apply to system.",
   "msg_tool_enable_instruction": "Enable this tool, configure your theme, then go back and tap Apply on Home to run it.",
   "msg_tool_enable_instruction_2": "Enable this tool, then go back and tap Apply on Home to run it.",
+  "error_language_fetch_failed": "Failed to fetch language list: Invalid response",
+  "error_language_download_invalid_url": "Invalid download URL for {language}",
+  "error_language_download_failed": "Failed to download {language}: Invalid response",
+  "error_language_download_error": "Failed to download {language}: {error}",
+  "error_cannot_delete_current_language": "Cannot delete the currently selected language",
   
   "_comment_misc": "=== MISCELLANEOUS ===",
   "version_format": "Version {version} ({build})",
@@ -315,6 +327,10 @@
   "scaling_description_down": "Will scale down from big to small (×0.70)",
   "scaling_description_none": "No scaling needed - sizes match",
   "scaling_description_unknown": "No scaling info available - images will be used as-is",
-  "timeout_error": "Hết thời gian chờ (Timeout). Vui lòng thêm thẻ vào Wallet và thử lại.",
-  "unknown_error": "Lỗi không xác định khi quét ID thẻ."
+  "timeout_error": "Timeout. Please add a card to Wallet and try again.",
+  "unknown_error": "Unknown error occurred while scanning card ID.",
+  
+  "_comment_errors": "=== ERRORS ===",
+  "error_pairing_invalid_appstorage": "Invalid pairing file has been removed. Please select a new pairing file.",
+  "error_pairing_invalid_disk": "Invalid pairing file on disk has been removed. Please select a new pairing file."
 }
