@@ -14,7 +14,7 @@
       "nativeName": "简体中文",
       "version": 1,
       "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/zh_CN.json",
-      "translator": "Vzero Reviewer"
+      "translator": "Vzero"
     },
     {
       "code": "ru_RU",
@@ -31,6 +31,14 @@
       "version": 1,
       "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/fr_FR.json",
       "translator": "louloupexe"
+    },
+    {
+      "code": "vi_VN",
+      "name": "Vietnamese",
+      "nativeName": "Tiếng Việt",
+      "version": 1,
+      "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/vi_VN.json",
+      "translator": "YangJiii"
     }
   ]
 }
