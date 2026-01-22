@@ -4,7 +4,7 @@
       "code": "en",
       "name": "English",
       "nativeName": "English",
-      "version": 1,
+      "version": 1.1,
       "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/en.json",
       "translator": "YangJiii"
     },
@@ -12,7 +12,7 @@
       "code": "zh_CN",
       "name": "Chinese (Simplified)",
       "nativeName": "简体中文",
-      "version": 1,
+      "version": 1.1,
       "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/zh_CN.json",
       "translator": "Vzero"
     },
@@ -20,7 +20,7 @@
       "code": "ru_RU",
       "name": "Russian",
       "nativeName": "Русский",
-      "version": 1,
+      "version": 1.1,
       "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/ru_RU.json",
       "translator": "🌸Владек"
     },
@@ -28,7 +28,7 @@
       "code": "fr_FR",
       "name": "French",
       "nativeName": "Français",
-      "version": 1,
+      "version": 1.1,
       "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/fr_FR.json",
       "translator": "louloupexe"
     },
@@ -36,7 +36,7 @@
       "code": "vi_VN",
       "name": "Vietnamese",
       "nativeName": "Tiếng Việt",
-      "version": 1,
+      "version": 1.1,
       "downloadURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/main/languages/vi_VN.json",
       "translator": "YangJiii"
     }
