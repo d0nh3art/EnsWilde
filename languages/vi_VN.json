@@ -27,6 +27,7 @@
   "section_add_card": "Thêm thẻ",
   "section_card_preview": "Xem trước thẻ",
   "section_card_information": "Thông tin thẻ",
+  "section_card_information": "Thông tin thẻ",
   "section_image_resolution": "Độ phân giải ảnh",
   "section_card_images": "Hình ảnh thẻ",
   "section_patch_list": "Danh sách bản vá",
@@ -59,7 +60,7 @@
   "theme_store_download_import": "Tải về & Nhập",
   "theme_store_downloading": "Đang tải về...",
   "theme_store_downloaded": "Đã tải về",
-  "theme_store_credit": "Giao diện được cung cấp bởi SerStars/Nugget-Wallpapers",
+  "theme_store_credit": "Nếu bạn muốn thêm các tùy chỉnh riêng, vui lòng liên hệ với tôi.",
   
   "_comment_tools": "=== CÔNG CỤ/TINH CHỈNH ===",
   "tool_mobile_gestalt": "MobileGestalt",
