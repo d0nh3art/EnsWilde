@@ -45,6 +45,22 @@
   "apply_button": "Apply",
   "apply_enabled_tools": "Apply Enabled Tools",
   
+  "_comment_navigation": "=== NAVIGATION BAR ===",
+  "nav_home": "Home",
+  "nav_theme_store": "Theme Store",
+  "nav_apply": "Apply",
+  
+  "_comment_theme_store": "=== THEME STORE ===",
+  "theme_store_title": "Theme Store",
+  "theme_store_loading": "Loading themes...",
+  "theme_store_error": "Failed to load themes",
+  "theme_store_retry": "Retry",
+  "theme_store_no_themes": "No themes available",
+  "theme_store_download_import": "Download & Import",
+  "theme_store_downloading": "Downloading...",
+  "theme_store_downloaded": "Downloaded",
+  "theme_store_credit": "Themes provided by SerStars/Nugget-Wallpapers",
+  
   "_comment_tools": "=== TOOLS/TWEAKS ===",
   "tool_mobile_gestalt": "MobileGestalt",
   "tool_mobile_gestalt_desc": "Modify MobileGestalt file",
@@ -328,9 +344,5 @@
   "scaling_description_none": "No scaling needed - sizes match",
   "scaling_description_unknown": "No scaling info available - images will be used as-is",
   "timeout_error": "Timeout. Please add a card to Wallet and try again.",
-  "unknown_error": "Unknown error occurred while scanning card ID.",
-  
-  "_comment_errors": "=== ERRORS ===",
-  "error_pairing_invalid_appstorage": "Invalid pairing file has been removed. Please select a new pairing file.",
-  "error_pairing_invalid_disk": "Invalid pairing file on disk has been removed. Please select a new pairing file."
+  "unknown_error": "Unknown error occurred while scanning card ID."
 }
